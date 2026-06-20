@@ -662,7 +662,7 @@ header{
 
     overflow:hidden;
 
-    background:#1e293b;
+    background:#fafcfa;
 }
 
 .skill-progress{
@@ -692,7 +692,7 @@ header{
 }
 
 .skill-progress.quran{
-    background:linear-gradient(90deg,#22c55e,#4ade80);
+    background:linear-gradient(90deg,#22c55e,#0cf260);
 }
 
 /* =========================

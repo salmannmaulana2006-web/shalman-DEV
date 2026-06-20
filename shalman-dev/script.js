@@ -31,6 +31,7 @@ const texts = [
     "Mahasiswa IT semester 2",
     "Web Developer",
     "Pengajar Al-Qur'an",
+    "NIM:2511080006",
 ];
 
 let textIndex = 0;
