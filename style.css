@@ -1428,3 +1428,45 @@ footer{
     background:#fff;
     padding:10px;
 }
+
+@media (max-width: 768px){
+
+    .hero{
+        padding-top: 120px;
+    }
+
+    .hero-content{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-text h1{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .hero-text h2{
+        font-size: 1.8rem;
+    }
+
+    .profile-card img{
+        width: 280px;
+        max-width: 100%;
+    }
+
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero-buttons a{
+        width: 100%;
+        text-align: center;
+    }
+
+    .loader-content h1{
+        font-size: 2.5rem;
+    }
+}
