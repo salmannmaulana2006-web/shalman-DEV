@@ -1437,9 +1437,22 @@ footer{
 
     .hero-content{
         flex-direction: column;
-        text-align: center;
-        gap: 40px;
     }
+
+   .loader-content h1{
+      font-size: 2rem !important;
+      word-break: break-word;
+   }
+
+   .loader-content{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+   }
+
+   .progres-bar{
+      width: 100%;
+   }
 
     .hero-text h1{
         font-size: 2.5rem;
