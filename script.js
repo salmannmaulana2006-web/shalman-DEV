@@ -130,6 +130,8 @@ if(themeToggle){
 const cursorGlow =
 document.querySelector(".cursor-glow");
 
+if(window.innerWidth > 768){
+
 document.addEventListener("mousemove", (e) => {
 
     if(cursorGlow){
@@ -143,7 +145,14 @@ document.addEventListener("mousemove", (e) => {
     }
 
 });
+   
+}else{
 
+    if(cursorGlow){
+        cursorGlow.style.display = "none";
+    }
+
+}
 
 /* ==================================
    SKILL BAR ANIMATION
