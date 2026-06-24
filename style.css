@@ -1495,3 +1495,7 @@ body{
         display:none;
     }
 }
+.skill-progress.quran{
+    width:95% !important;
+    background:green !important;
+}
